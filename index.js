@@ -33,10 +33,12 @@ client.on('message', (channel, tags, message, self) => {
         client.say(channel, `tetelkasz#2188 - ${elo.elo} - ${elo.div} - ${elo.pdl} `)
     }
     if(confirm == '!elo'){
+        client.say(channel, `tetelkasz#2188 - ${elo.elo} - ${elo.div} - ${elo.pdl} `) 
+    }
+    if(confirm == '!rank'){
         newelo(value)
         client.say(channel, `tetelkasz#2188 - ${elo.elo} - ${elo.div} - ${elo.pdl} `) 
     }
-    
 });	
 
 let elo = {
